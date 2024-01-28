@@ -8,6 +8,8 @@
     .max-container {
         max-width: 1800px;
         margin: 0 auto;
+        padding-left: .5rem;
+        padding-right: .5rem;
       }
     .item-menu{
         @apply transition-all hover:text-violeta_claro2 cursor-pointer hover:shadow hover:translate-y-1;
