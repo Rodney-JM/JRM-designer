@@ -6,10 +6,13 @@
 
 @layer components{
     .max-container {
-        max-width: 1440px;
+        max-width: 1800px;
         margin: 0 auto;
       }
-    .icon-menu{
-        @apply hover:bg-white hover:rounded-full hover:p-2 transition-all hover:text-violeta_escuro cursor-pointer;
+    .item-menu{
+        @apply transition-all hover:text-violeta_claro2 cursor-pointer hover:shadow hover:translate-y-1;
+    }
+    .rede-item{
+        @apply transition-all cursor-pointer hover:text-cor_textos;
     }
 }

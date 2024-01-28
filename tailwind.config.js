@@ -7,7 +7,8 @@ module.exports = {
         montserrat:['Montserrat', 'sans-serif'],
         palanquin:['Palanquin', 'sans-serif']
       },colors:{
-        preto:'#012030',  
+        preto_escuro:'#0B0B0D',
+        preto_escuro2:'#232426',  
         violeta_escuro:'#25064C',
         violeta_mescuro:'#36175E',
         violeta:'#553285',
@@ -17,9 +18,11 @@ module.exports = {
       },
       backgroundImage:{
         tinta: "url('../src/assets/images/tinta-bg')"
-      }
+      }, display: ['responsive', 'group-hover', 'focus'],
     },
   },
-  plugins: [],
+  plugins: [
+    
+  ],
 }
 
